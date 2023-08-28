@@ -2,6 +2,7 @@
 body{
     background-color: #EEEAEA;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -157,9 +158,34 @@ i:active{
 .left-icon{
     margin-left: 0.5rem;
     padding-right: 0.5rem;
+    color: rgb(68, 52, 110);
 }
 .options i{
-    font-size: smaller;
+    font-size: large;
+}
+
+.fa-bookmark{
+    color: #d74;
+}
+
+.fa-calendar{
+    color: rgb(180, 46, 41);
+}
+
+.fa-store{
+    color: rgb(26, 206, 19);
+}
+
+
+.fa-droplet{
+    color: red;
+}
+
+
+.options h3{
+    font-size: 15px;
+    color: rgb(82, 74, 70);
+    margin-left: 5px;
 }
 
 /**************middle portion***************/
