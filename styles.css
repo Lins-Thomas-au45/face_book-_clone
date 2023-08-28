@@ -199,8 +199,15 @@ i:active{
 
 /**************middle portion***************/
 .centre{
-    overflow-y: scroll;
+    flex: 1;
+    overflow-y: hidden;
 }
+
+.centre .centre-content{
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
 .centre .story-section{
     display: flex;
     align-items: center;
