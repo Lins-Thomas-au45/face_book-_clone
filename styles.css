@@ -140,6 +140,10 @@ i:active{
 .left-content{
     overflow-y: auto;
 }
+
+.left-content::-webkit-scrollbar {
+    display: none;
+}
 .options{
     height: 40px;
     width: 80%;
@@ -206,6 +210,10 @@ i:active{
 .centre .centre-content{
     max-height: 100vh;
     overflow-y: auto;
+}
+
+.centre-content::-webkit-scrollbar {
+    display: none;
 }
 
 .centre .story-section{
@@ -363,8 +371,12 @@ i:active{
     flex-direction: column;
     margin-left: 50px;
     margin-top: 20px;
-
+    overflow-y: auto;
+    height: 100vh;
 }
+.friend-section::-webkit-scrollbar{
+    display: none;
+} 
 
 .list{
     width: 250px;
