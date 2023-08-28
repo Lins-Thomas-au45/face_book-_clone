@@ -2,6 +2,7 @@
 body{
     background-color: #EEEAEA;
     margin: 0;
+    color: rgb(82, 74, 70);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -197,7 +198,7 @@ i:active{
 
 .options h3{
     font-size: 15px;
-    color: rgb(82, 74, 70);
+    
     margin-left: 5px;
 }
 
@@ -243,6 +244,22 @@ i:active{
 
 .story:hover >img{
     transform: scale(1.05);
+}
+
+.action-add .fa-video{
+    color: rgb(209, 39, 39);
+    font-size: 20px;
+    
+}
+.action-add .fa-image{
+    color: rgb(35, 185, 42);
+    font-size: 20px;
+    
+}
+.action-add .fa-smile{
+    color: rgb(209, 197, 26);
+    font-size: 20px;
+    
 }
 
 .dp-container{
@@ -363,6 +380,15 @@ i:active{
     color: #d74;
 }
 
+
+.line{
+    width: 90%;
+    background-color: #f1dede;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
 /*********Right section**********************/
 
 
@@ -396,6 +422,7 @@ i:active{
     height: 40px;
     border-radius: 50%;
     overflow: hidden;
+    margin-left: 10px;
 
 }
 
@@ -410,4 +437,12 @@ i:active{
 
 .name2{
     margin-left: 10px;
+}
+.name2 h4{
+    font-size: 15px;
+}
+
+.contact h3{
+    color: #918a8a;
+    font-weight: 300;
 }
