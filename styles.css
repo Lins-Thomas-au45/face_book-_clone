@@ -79,7 +79,7 @@ header{
 
 i{
     font-size: x-large;
-    margin-top: px;
+    
 
 }
 
@@ -157,6 +157,9 @@ i:active{
 .left-icon{
     margin-left: 0.5rem;
     padding-right: 0.5rem;
+}
+.options i{
+    font-size: smaller;
 }
 
 /**************middle portion***************/
